@@ -1,0 +1,11 @@
+Login
+^.*P-(?<proccessID>\d+)\s+T-(?<session>\d+)\s+(?<severity>[IWF])\s(?<login>\S+)\s+\d+:\s+\((?<vmid>452)\)\s+Login by\s(?<account>.*)\son\s(?<object>.*)
+
+Logoff
+^.*P-(?<proccessID>\d+)\s+T-(?<session>\d+)\s+(?<severity>[IWF])\s(?<login>\S+)\s+\d+:\s+\((?<vmid>453)\)\s+Logout by\s(?<account>.*)\son\s(?<object>.*)
+
+Catch All
+^.*P-(?<proccessID>\d+)\s+T-(?<session>\d+)\s+(?<severity>[IWF])\s(?<lgoin>\S+)\s+\d+:\s+\((?<vmid>\d+)\)
+
+Catch All - L2
+^.*P-(?<proccessID>\d+)\s+T-(?<session>\d+)\s+(?<severity>[IWF])\s(?<lgoin>\S+)\s+\d+:\s+\((?<vmid>\S+)\)
