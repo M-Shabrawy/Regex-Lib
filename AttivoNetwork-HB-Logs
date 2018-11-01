@@ -1,0 +1,1 @@
+^.*Severity:\[(?<severity>.*)\] Attacker IP:\[(?<sip>(\d+\.\d+\.\d+\.\d+)?)\] Target Host:\[(?<dname>\S*)\] Target IP:\[(?<dip>(\d+\.\d+\.\d+\.\d+)?)\] Target OS:\[(?<version>.*)\] Description:\[(?<reason>.*)\] Details:.*
